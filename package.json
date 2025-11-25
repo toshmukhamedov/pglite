@@ -19,14 +19,20 @@
     "build:all": "pnpm wasm:build && pnpm ts:build",
     "build:all:debug": "DEBUG=true pnpm build:all"
   },
+  "dependencies": {
+    "axios": "1.13.5",
+    "socket.io-client": "4.8.3"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.27.9",
     "@eslint/eslintrc": "^3.1.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
+    "axios": "1.13.5",
     "eslint": "^8.57.1",
     "globals": "^15.11.0",
     "prettier": "3.3.3",
+    "socket.io-client": "4.8.3",
     "tsup": "^8.3.0",
     "tsx": "^4.19.1",
     "typescript": "^5.6.3"
